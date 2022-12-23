@@ -29,13 +29,10 @@ public class Main {
         double fibonacciRatio = ((1 + Math.sqrt(5)) / 2);
 
         // Declare an array to store Fibonacci numbers
-        // 1 extra to handle case, n = 0
         long f[] = new long[13];
 
         int i;
 
-
-        // 1 and 1 to start from the number following startingNumber
         f[0] = Math.round(n/fibonacciRatio);
         f[1] = n;
 
